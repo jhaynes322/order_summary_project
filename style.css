@@ -16,3 +16,95 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: var(--very-pale-blue);
+    padding-left: 50;
+    padding-right: 50;
+    padding-bottom: 50;
+}
+
+.hero {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.card-h1 {
+    padding-bottom: 30px;
+}
+
+.card-p {
+    color: var(--desat-blue);
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+}
+
+.plan-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.img-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.price {
+    margin-left: 20px;
+}
+
+.plan-change {
+    margin-right: 25px;
+}
+
+.price #bold {
+    font-weight: 900;
+}
+
+.price #gray {
+    color: var(--desat-blue);
+}
+
+button {
+    color: var(--very-pale-blue);
+    font-weight: 700;
+    width: 350px;
+    height: 45px;
+    background-color: var(--bright-blue);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.cancel {
+    text-decoration: none;
+    color: var(--desat-blue);
+}
