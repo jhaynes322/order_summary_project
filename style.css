@@ -108,3 +108,20 @@ button {
     text-decoration: none;
     color: var(--desat-blue);
 }
+
+button:hover {
+    background-color: hsl(270, 100%, 80%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+
+#change:hover {
+    color: hsl(270, 100%, 80%);
+    cursor: pointer;
+    text-decoration: none;
+}
