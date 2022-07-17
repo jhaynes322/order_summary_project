@@ -31,31 +31,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 450px;
-    height: 700px;
+    max-width: 28.125em;
+    height: 43.75em;
     border-radius: 10px;
     background-color: var(--very-pale-blue);
-    padding-left: 50;
-    padding-right: 50;
-    padding-bottom: 50;
 }
 
 .hero {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 3.125em;
 }
 
 .card-h1 {
-    padding-bottom: 30px;
+    padding-bottom: 1.5625em;
 }
 
 .card-p {
     color: var(--desat-blue);
     text-align: center;
-    padding-left: 50px;
-    padding-bottom: 25px;
-    padding-right: 50px;
+    padding-left: 3.125em;
+    padding-bottom: 1.5625em;
+    padding-right: 3.125em;
 }
 
 .plan-info {
@@ -65,24 +62,24 @@ body {
     justify-content: space-between;
     background-color: lightgray;
     border-radius: 10px;
-    width: 350px;
-    height: 100px;
-    margin-bottom: 30px;
+    width: 21.875em;
+    height: 6.25em;
+    margin-bottom: 1.5625em;
 }
 
 .img-group {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 1.5625em;
 }
 
 .price {
-    margin-left: 20px;
+    margin-left: 1.25em;
 }
 
 .plan-change {
-    margin-right: 25px;
+    margin-right: 1.5625em;
 }
 
 .price #bold {
@@ -96,11 +93,11 @@ body {
 button {
     color: var(--very-pale-blue);
     font-weight: 700;
-    width: 350px;
-    height: 45px;
+    width: 21.875em;
+    height: 2.8125em;
     background-color: var(--bright-blue);
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
@@ -124,4 +121,42 @@ button:hover {
     color: hsl(270, 100%, 80%);
     cursor: pointer;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 325px;
+        height: 570px;
+    }
+
+    .hero {
+        width: 325px;
+        padding-bottom: 30px;
+    }
+
+    .card-h1 {
+        padding-bottom: 20px;
+    }
+
+    .plan-info {
+        width: 275px;
+        height: 70px;
+    }
+
+    .img-group {
+        margin-left: 15px;
+    }
+
+    .price {
+        margin-left: 15px;
+    }
+
+    .plan-change {
+        margin-right: 15px;
+    }
+
+    button {
+        width: 275px;
+        height: 50px;
+    }
 }
