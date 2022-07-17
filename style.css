@@ -34,7 +34,8 @@ body {
     max-width: 28.125em;
     height: 43.75em;
     border-radius: 10px;
-    background-color: var(--very-pale-blue);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }
 
 .hero {
@@ -44,7 +45,8 @@ body {
 }
 
 .card-h1 {
-    padding-bottom: 1.5625em;
+    padding-bottom: 25px;
+    font-size: 25px;
 }
 
 .card-p {
@@ -60,7 +62,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: var(--very-pale-blue);
     border-radius: 10px;
     width: 21.875em;
     height: 6.25em;
@@ -94,7 +96,7 @@ button {
     color: var(--very-pale-blue);
     font-weight: 700;
     width: 21.875em;
-    height: 2.8125em;
+    height: 45px;
     background-color: var(--bright-blue);
     border-radius: 10px;
     margin-bottom: 1.875em;
